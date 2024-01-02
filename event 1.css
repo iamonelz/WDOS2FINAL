@@ -1,0 +1,532 @@
+.header_1 img.logo{
+    height: 150px;
+    position: absolute;
+}
+
+.body3{
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 100%;
+    background-color: #000000;
+}
+
+.nav{
+    display: flex;
+    background-color: goldenrod;
+    width: 900px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50px;
+    /* left: 1; */
+    right: 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    opacity: 75%;
+    text-align: center;
+    font-family:'league spartan';
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+.nav ul li{
+    width: 100%;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    font-weight: bold;
+    transition: 0.2s;
+}
+.nav ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+@media (max-width: 950px){
+    .nav{
+        width: 90%;
+    }
+}
+
+.book{
+    position: absolute;
+    top: 13%;
+    /* border: 0%; */
+    border-radius: 10%;
+    left: 92%;
+}
+.book input{
+    background-color: goldenrod;
+    border:0;
+    margin: 0 auto;
+    opacity: 75%;
+    text-align: center;
+    font-size:medium;
+    font-family: 'league spartian';
+    transition: 0.4s;
+    width: 115%;
+    height: 55px;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+.book :hover{
+    color: rgb(255, 255, 255);
+}
+
+.pic_five{
+    width: 100%;
+    height: 260px;
+}
+
+.pic_one{
+    position: relative;
+    width: 100%;
+}
+
+
+.h_1{
+    color: #000000;
+    position: absolute;
+    /* transform:translate(); */
+    top: 43%;
+    left: 23%;
+    font-size:600%;
+    font-style: oblique;
+    text-shadow: 1px 5px goldenrod;
+}
+
+.content_1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: aliceblue;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 0;
+    border-radius: 10px;
+}
+
+.pic_two{
+    width: 100%;
+    height: 300px;
+}
+
+.h_2{
+    margin-left: 5%;
+}
+
+.p_1{
+    margin-left: 5%;
+    text-align: justify;
+    margin-right: 10%;
+}
+.content_1 :hover{
+    background-color: #000000;
+    color: #ffffff;
+    transition-duration: 0.5s;
+
+}
+
+
+.meeting{
+    position: absolute;
+    top: 32%;
+    /* border: 0%; */
+    border-radius: 10px;
+    left: 86%;
+}
+
+.meeting input{
+    background-color: goldenrod;
+    border:0;
+    margin: 0 auto;
+    opacity: 75%;
+    text-align: center;
+    font-size:medium;
+    font-family: 'league spartian';
+    transition: 0.4s;
+    width: 200%;
+    height: 55px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.meeting :hover{
+    color: #ffffff;
+}
+
+.wedding{
+    position: absolute;
+    top: 32%;
+    /* border: 0%; */
+    border-radius: 10px;
+    left: 72%;
+}
+
+.wedding input{
+    background-color: goldenrod;
+    border:0;
+    margin: 0 auto;
+    opacity: 75%;
+    text-align: center;
+    font-size:medium;
+    font-family: 'league spartian';
+    transition: 0.4s;
+    width: 200%;
+    height: 55px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.wedding :hover{
+    color: #ffffff;
+}
+
+.checking4{
+    display: block;
+    background-color:goldenrod !important;
+    margin: 0 auto;
+    width: 75%;
+    position: absolute;
+    top: 165%;
+    left: 0;
+    right: 0;
+    border-radius: 8px;
+    opacity: 75%;
+    text-align: center;
+    font-family: 'league spartan';
+}
+
+.bottom3{
+    background-color: rgb(0, 0, 0);
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 6%;
+}
+
+.insta{
+    width: 8%;
+    padding-left: 5%;
+    padding-top: 10%;
+}
+
+.check-in{
+    font-weight:bolder;
+    font-size: 17px;
+}
+
+.check-out{
+    font-weight:bolder;
+    font-size: 17px;
+}
+
+.inquire_btn{
+    border-radius: 6px;
+    background: goldenrod;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 17px;
+    box-sizing: border-box;
+    width: 20%;
+    margin: 8px 0;
+
+}
+
+.Hotel {
+    font-size: 15px;
+
+  }
+
+.adults{
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    width: 8%;
+
+}
+
+.children{
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    width:8%;
+}
+
+
+.checkout{
+    font-size: 15px;
+}
+
+.nation{
+    font-size: 16px;
+
+}
+
+.mark input{
+    background-color: rgb(156, 160, 160);
+    border: 0;
+    opacity: 85%;
+    font-size: large;
+    font-weight:bolder;
+    position: fixed;
+    top: 95%;
+    left: 97%;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 42% 30% 30%;
+}
+
+.logo2{
+    width: 20%;
+    margin-left: 41%;
+}
+
+.nav2{
+    text-decoration: 0%;
+    text-decoration-color: goldenrod;
+    text-align: center;
+    padding-left: 25%;
+    padding-top: 0%;
+    padding-bottom: 8%;
+
+}
+.nav2 ul li a{
+    color: goldenrod;
+}
+.nav2 ul{
+    color: #ffffff;
+    list-style: none;
+    width: 100%;
+    text-align: start;
+}
+
+.nav2 :hover{
+    color: rgb(255, 255, 255);
+}
+
+.contact1{
+    color: goldenrod;
+    width: 80%;
+    padding-bottom: 18%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 0%;
+}
+
+
+
+@media screen and (max-width: 768px) and (min-width: 480px){
+
+    .checking4{
+        display: block;
+        background-color:goldenrod !important;
+        margin: 0 auto;
+        width: 75%;
+        position: relative;
+        top: 165%;
+        left: 0;
+        right: 0;
+        border-radius: 8px;
+        opacity: 75%;
+        text-align: center;
+        font-family: 'league spartan';
+    }
+
+    .book{
+        position: absolute;
+        top: 3%;
+        /* border: 0%; */
+        border-radius: 10%;
+        left: 83%;
+    }
+
+    .book input{
+        background-color:goldenrod;
+        border:0;
+        margin: 0 auto;
+        padding-left: 0%;
+        opacity: 75%;
+        text-align: center;
+        font-size:medium;
+        font-family: 'league spartian';
+        transition: 0.4s;
+        width: 115%;
+        height: 55px;
+        font-weight: bold;
+        border-radius: 10px;
+    
+    }
+
+    .header_1 img.logo{
+        width: 32%;
+        height: 80px;
+        position: absolute;
+    }
+
+    .nav{
+        display: flex;
+        background-color: goldenrod;
+        width: 95%;
+        margin: 0 auto;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 8px;
+        opacity: 75%;
+        text-align: center;
+        font-family:'league spartan';
+    }
+
+    .h_1{
+        color: #000000;
+        position: absolute;
+        /* transform:translate(); */
+        top: 30%;
+        left: 18%;
+        font-size: 400%;
+        font-style: oblique;
+        text-shadow: 1px 5px goldenrod;
+    }
+
+    .meeting{
+        position: absolute;
+        top: 26%;
+        /* border: 0%; */
+        border-radius: 10px;
+        left: 55%;
+    }
+
+    .wedding{
+        position: absolute;
+        top: 26%;
+        /* border: 0%; */
+        border-radius: 10px;
+        left: 25%;
+    }
+
+}
+
+
+/* .hamburger-menu{
+    visibility: hidden;
+    position: absolute;
+    
+ }
+
+@media screen and (max-width: 480px) {
+    *,
+    *::after,
+    *::before {
+    box-sizing: border-box;
+    }
+
+    body {
+    margin: 0;
+    }
+
+    :root {
+    --bar-width: 60px;
+    --bar-height: 8px;
+    --hamburger-gap: 6px;
+    --foreground: #333;
+    --background: white;
+    --hamburger-margin: 8px;
+    --animation-timing: 200ms ease-in-out;
+    --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+    }
+
+    .hamburger-menu {
+    --x-width: calc(var(--hamburger-height) * 1.41421356237);
+
+
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    gap: var(--hamburger-gap);
+    visibility: visible;
+    width: max-content;
+    position: absolute;
+    top: var(--hamburger-margin);
+    left: var(--hamburger-margin);
+    z-index: 2;
+    cursor: pointer;
+    }
+
+    .hamburger-menu:has(input:checked) {
+    --foreground: white;
+    --background: #333;
+    }
+
+    .hamburger-menu:has(input:focus-visible)::before,
+    .hamburger-menu:has(input:focus-visible)::after,
+    .hamburger-menu input:focus-visible {
+    border: 1px solid var(--background);
+    box-shadow: 0 0 0 1px var(--foreground);
+    }
+
+    .hamburger-menu::before,
+    .hamburger-menu::after,
+    .hamburger-menu input {
+    content: "";
+    width: var(--bar-width);
+    height: var(--bar-height);
+    background-color: var(--foreground);
+    border-radius: 9999px;
+    transform-origin: left center;
+    transition: opacity var(--animation-timing), width var(--animation-timing),
+        rotate var(--animation-timing), translate var(--animation-timing),
+        background-color var(--animation-timing);
+    }
+
+    .hamburger-menu input {
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    pointer-events: none;
+    }
+
+    .hamburger-menu:has(input:checked)::before {
+    rotate: 45deg;
+    width: var(--x-width);
+    translate: 0 calc(var(--bar-height) / -2);
+    }
+
+    .hamburger-menu:has(input:checked)::after {
+    rotate: -45deg;
+    width: var(--x-width);
+    translate: 0 calc(var(--bar-height) / 2);
+    }
+
+    .hamburger-menu input:checked {
+    opacity: 0;
+    width: 0;
+    }
+
+    .sidebar {
+    transition: translate var(--animation-timing);
+    translate: -100%;
+    padding: 0.5rem 1rem;
+    padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
+    background-color: var(--foreground);
+    color: var(--background);
+    max-width: 10rem;
+    min-height: 100vh;
+    }
+
+    .hamburger-menu:has(input:checked) + .sidebar {
+    translate: 0;
+    }
+} */

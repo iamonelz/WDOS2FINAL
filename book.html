@@ -1,0 +1,201 @@
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is a Site about a Hotel in Colombo">
+    <title>Queen's Hotel</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="main.js" defer></script>
+</head>
+<body class="body">
+    <div>
+        <header class="header1">
+            <a href="index.html"><img class="logoBk" alt="logo" src="logo_gold-1030x473-1.png" ></a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="hotels.html">HOTELS</a></li>
+                    <li><a href="restuarant.html">RESTUARANTS</a></li>
+                    <li><a href="adventures.html">ADVENTURES</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+    </div>
+    <div>
+        <img src="dark-hotel-luxury-night-wallpaper-preview.jpg" alt="backpic" class="pic_five">
+    </div>
+    <div class="img.contain">
+        <img src="Bed-hotels.jpeg" class="pic_thirteen" alt="lastpic">
+    </div>
+    <div class="Bodyform">
+        <div>
+            <div>
+                <div>
+                    <fieldset class="F1">
+                        <legend class="L1">Room Details</legend>
+                        <p>
+                            <input type="radio" name="roomTp" id="single" value="single">
+                            <label class="classroomTp">Single</label>
+                            <input type="radio" name="roomTp" id="double" value="double">
+                            <label class="classroomTp">Double</label>
+                            <input type="radio" name="roomTp" id="triple" value="triple">
+                            <label class="classroomTp">Triple</label>
+                            <label class="noRooms">Number of Rooms : </label>
+                            <input type="number" min="1" max="20" name="roomTp" id="numofRooms" value="1" >
+                            <input type="checkbox" id="additionBed" name="roomTp" value="addBed">
+                            <label>Extra Bed</label>
+                        </p>
+                    </fieldset>
+                    <fieldset class="F1">
+                        <legend class="L1">Number of</legend>
+                        <p>
+                            <label class="numAdult">Number of Adults : </label>
+                            <input type="number" id="numberAdults" min="1" value="1" max="4" required>
+                            <label class="numChild">Number of Children : </label>
+                            <input type="number" id="numberChild" min="0" value="0">
+                        </p>
+                    </fieldset>
+                    <fieldset class="F1">
+                        <legend class="L1">Duration</legend>
+                        <p>
+                            <label class="duration">Check-In : </label>
+                            <input type="date" name="durations" id="checkin" required>
+                            <label class="duration">Check-Out : </label>
+                            <input type="date" name="durations" id="checkout" required>
+                        </p>
+                    </fieldset>
+                    <fieldset class="F1">
+                        <legend class="L1">Extra Requirement : </legend>
+                        <p>
+                            <label class="extra">WI-FI</label>
+                            <input type="checkbox" name="extraRequirement" id="wifi" value="wifi">
+                        </p>
+                        <label>Different Pool Views : </label>
+                        <p>
+                            <label class="extraView">Pool View</label>
+                            <input type="radio" name="extraRequirement" id="poolView" value="poolView">
+                            <label class="extraView">Garden View</label>
+                            <input type="radio" name="extraRequirement" id="gardenView" value="gardenView"> 
+                        </p>
+                    </fieldset>
+                    <fieldset class="F1">
+                        <legend class="L1">Promo Code</legend>
+                        <p>
+                            <label>Promo Code : </label>
+                            <input type="text" id="promCode" value="">
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Current Cost</legend>
+                        <p id="currentCost1"></p>
+
+                    </fieldset>
+                    <fieldset class="F1">
+                        <legend class="L1">Book Now</legend>
+                        <button type="button" id="bookBtn">Book Now</button>
+                        <button type="button" id="favBtn">Add to Favourites</button>
+                        <button type="button" id="formRest">Reset Form</button>
+                        <button type="button" id="loyaltyCheckBtn">Check Loyalty</button>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+        <div class="form-container00001">
+            <form class="form00001">
+                <label for="customerName" class="ChooseRoom">Name:</label><br>
+                <input type="text" id="AdventureCustomer" name="customerName" required>
+
+                <label for="customerPhone" class="ChooseRoom">Phone Number: </label><br>
+                <input type="tel" id="AdventurePhone" name="customerPhone" pattern="[0-9]{10}" required>
+
+                <label for="EmailAddress" class="ChooseRoom">Email Address :</label><br>
+                <input type="text" id="EmailAddress" name="EmailAddress" required><br>
+
+                <label class="ChooseRoom">Select Adventure:</label><br>
+                <label for="Sea">
+                <input type="radio" id="Sea" name="Sea" value="Sea" required> Sea Diving
+                </label>
+
+                <label class="ChooseRoom">Select Your Category - Per hour: </label><br>
+                <label for="localAdultDiving">
+                <input type="checkbox" id="localAdultDiving" name="adventure" value="localAdultDiving" required> Diving for local Adults<br>
+                </label>
+                <input type="number" id="localAdultDivingParticipants" name="localAdultDivingParticipants" min="1" value="1" required><br>
+                <label for="localKidDiving">
+                <input type="checkbox" id="localKidDiving" name="adventure" value="localKidDiving" required> Diving for local kids (above 5 years)<br>
+                </label>
+                <input type="number" id="localKidDivingParticipants" name="localKidDivingParticipants" min="1" value="1" required><br>
+                <label for="foreignAdultDiving">
+                <input type="checkbox" id="foreignAdultDiving" name="adventure" value="foreignAdultDiving" required> Diving for foreign adults<br>
+                </label>
+                <input type="number" id="foreignAdultDivingParticipants" name="foreignAdultDivingParticipants" min="1" value="1" required><br>
+                <label for="foreignKidDiving">
+                <input type="checkbox" id="foreignKidDiving" name="adventure" value="foreignKidDiving" required> Diving for foreign kids (above 5 years)<br>
+                </label>
+                <input type="number" id="foreignKidDivingParticipants" name="foreignKidDivingParticipants" min="1" value="1" required><br><br>
+                
+                <label class="ChooseRoom">Include a Guide: </label><br>
+                <label for="guideAdultCheckbox"> 
+                <input type="checkbox" id="guideAdultCheckbox"> Guide for Adults</label>
+
+                <label for="guideChildrenCheckbox"> 
+                <input type="checkbox" id="guideChildrenCheckbox"> Guide for Children</label><br>
+        
+                <button type="button" id="AdventureBook">Book Adventure</button>
+                <button type="button" id="AdfavBtn2">Add Favourites</button>
+
+                <div id="DisplayAdventureBookings"></div>
+            </form>
+        </div>
+    </div>
+    <div class="outPut" id="popUp">
+        <fieldset class="F1">
+            <legend>Total</legend>
+            <p id="outPut1">Order details will be updated here!!</p>
+            <p id="outPut2"></p>
+            <p id="outPut3"></p>
+            <button type="button" id="continueBtn">Continue</button>
+        </fieldset>
+    </div>
+
+    <footer class="bottom4">
+        <a href="index.html"><img src="logo_gold-1030x473-1.png" class="logo5" alt="pic"></a>
+        <div class="grid">
+            <div>
+                <nav class="nav2">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="hotels.html">HOTELS</a></li>
+                    <li><a href="restuarant.html">RESTUARANTS</a></li>
+                    <li><a href="adventures.html">ADVENTURES</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+
+                </ul>
+
+            </nav>
+            </div>
+        
+            <div>
+                <a href="https://www.instagram.com"><img src="instagram.png" alt="pic" class="insta"></a>
+                <a href="https://www.facebook.com"><img src="fb.png" alt="pic" class="insta"></a>
+                <a href="https://twitter.com"><img src="twitter.png" alt="pic" class="insta"></a>
+                <a href="https://lk.linkedin.com"><img src="linkdin.png" alt="pic" class="insta"></a>
+            </div>
+            <div class="contact1" >
+                Contact &nbsp;: +94 76 6630 615<br>
+                Hot-line&nbsp;&nbsp;: 011 230 1010<br>
+                Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: thequeens@gmail.com<br>
+                Address : 344, School lane, Colombo<br>
+            </div>
+           
+          
+        </div>
+    </footer>
+</body>
